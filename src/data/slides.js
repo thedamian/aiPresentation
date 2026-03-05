@@ -45,7 +45,7 @@ export const slides = [
     heading: "Some Do's",
     dimensions: [
       { icon: "🧠", label: "Summaries", desc: "Use AI meeting and email summary. Don't have 14 summaries" },
-      { icon: "🔝", label: "Lead", desc: "Do mandage AI usage. Don't say 'everyone use ai' and leave it at that." },
+      { icon: "🔝", label: "Lead", desc: "Do manage AI usage. Don't say 'everyone use ai' and leave it at that." },
       { icon: "🧪", label: "Experimentation", desc: "Have everything experience. But don't let it go wild." },
       { icon: "🐣", label: "Replacement", desc: "Do believe you'll see an improvement in prodactivity. But don't believe it'll happen right away" }
     ],

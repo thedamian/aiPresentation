@@ -5,11 +5,9 @@ export default function Slide({ slide }) {
 
   if (s.type === "title") return (
     <div className="slide slide--title">
-      <div className="title-badge">Executive Presentation · {s.meta}</div>
       <h1 className="title-h1">{s.title}</h1>
       <p className="title-sub">{s.subtitle}</p>
       <div className="title-divider" />
-      <p className="title-scroll">Use arrow keys or buttons to navigate →</p>
     </div>
   );
 
@@ -137,6 +135,32 @@ export default function Slide({ slide }) {
     </div>
   );
 
+  if (s.type === "aboutme") return (
+    <div className="slide slide--aboutme">
+      <div className="aboutme-card">
+        <div className="aboutme-image-wrap">
+          <img className="aboutme-image" src={s.image} alt={s.title} />
+        </div>
+        <div className="aboutme-info">
+          <div className="slide-label">{s.label || "About Me"}</div>
+          <h2 className="aboutme-name">{s.title}</h2>
+          <div className="aboutme-divider" />
+          <p className="aboutme-desc">{s.description}</p>
+        </div>
+      </div>
+    </div>
+  );
+
+  if (s.type === "saying") return (
+    <div className="slide slide--closing">
+      <div className="slide-label">{s.title}</div>
+      <blockquote className="closing-quote">{s.quote}</blockquote>
+      <div className="closing-divider" />
+      <blockquote className="closing-quote">{s.callToAction}</blockquote>
+
+    </div>
+  );
+
   if (s.type === "closing") return (
     <div className="slide slide--closing">
       <div className="slide-label">{s.title}</div>
@@ -144,6 +168,7 @@ export default function Slide({ slide }) {
       <div className="closing-divider" />
       <p className="closing-cta">{s.callToAction}</p>
       <div className="closing-badge">Open for Q&A</div>
+      <p>Slides. Dev AI Bootcamp .com</p>
     </div>
   );
 

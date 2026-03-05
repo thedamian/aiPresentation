@@ -32,9 +32,9 @@ export default function App() {
         <div className="header-right">
           <span className="timing-badge">{slide.timing}</span>
           <span className="slide-count">{current + 1} / {total}</span>
-          <button className="notes-btn" onClick={() => setShowNotes(n => !n)}>
+          {/* <button className="notes-btn" onClick={() => setShowNotes(n => !n)}>
             {showNotes ? "Hide Notes" : "Speaker Notes"}
-          </button>
+          </button> */}
         </div>
       </header>
 

@@ -10,7 +10,7 @@ export const slides = [
     id: 2, type: "aboutme",timing: "0–5 min",
 
     title: "Damian Montero",
-    image: "/public/damian3.png",
+    image: "public/damian3.png",
     description: "AI Advocate at the country's 10th largest Private Company. Also worked at the Department of Justice",
     speaker: "Introduce yourself briefly. Keep it personal and relatable."
   },
@@ -22,7 +22,7 @@ export const slides = [
     speaker: "End with energy. Leave them inspired, not overwhelmed. Pause after the quote. Let it breathe. Then open for Q&A."
   },
     {
-    id: 3, type: "saying", timing: "5–10 min",
+    id: 4, type: "saying", timing: "5–10 min",
     title: "Not talking about tech",
     quote: "AI for Programming is solved",
     callToAction: "",
@@ -30,52 +30,52 @@ export const slides = [
   },
 
     {
-    id: 4, type: "aboutme",timing: "10–18 min",
+    id: 5, type: "aboutme",timing: "10–18 min",
     label: "Are Agents Back?",
     title: "Agents are new employees, not geniuses",
-    image: "/public/damianAI1.jpg",
+    image: "public/damianAI1.jpg",
     description: "",
     speaker: "Introduce yourself briefly. Keep it personal and relatable."
   },
 
 
  {
-    id: 4, type: "framework", timing: "10–18 min",
+    id: 6, type: "framework", timing: "10–18 min",
     title: "What 'AI-Ready' Actually Means",
     heading: "Some Do's",
     dimensions: [
       { icon: "🧠", label: "Summaries", desc: "Use AI meeting and email summary. Don't have 14 summaries" },
       { icon: "🔝", label: "Lead", desc: "Do manage AI usage. Don't say 'everyone use ai' and leave it at that." },
-      { icon: "🧪", label: "Experimentation", desc: "Have everything experience. But don't let it go wild." },
-      { icon: "🐣", label: "Replacement", desc: "Do believe you'll see an improvement in prodactivity. But don't believe it'll happen right away" }
+      { icon: "🧪", label: "Experimentation", desc: "Have everyone experience. But don't let it go wild." },
+      { icon: "🐣", label: "Replacement", desc: "Do believe you'll see an improvement in productivity. But don't believe it'll happen right away" }
     ],
     speaker: "This is your core framework. Spend real time here. Ask the room to silently identify their weakest dimension before you move on."
   },
 
 
     {
-    id: 4, type: "aboutme",timing: "18–20 min",
+    id: 7, type: "aboutme",timing: "18–20 min",
     label: "the vibes",
-    title: "Don't think you can Vibe Code your SAAS product",
-    image: "/public/robotsplaying.jpg",
+    title: "Don't think you can Vibe Code your SaaS product",
+    image: "public/robotsplaying.jpg",
     description: "",
     speaker: "Introduce yourself briefly. Keep it personal and relatable."
   },
 
   {
-    id: 7, type: "framework", timing: "20–25 min",
+    id: 8, type: "framework", timing: "20–25 min",
     title: "What 'AI-Ready' Actually Means",
     heading: "The 4 Readiness Dimensions",
     dimensions: [
       { icon: "🧠", label: "Literacy", desc: "Teams understand what AI can and cannot do — and use that judgment daily." },
       { icon: "🔄", label: "Workflow Integration", desc: "AI is embedded in how work gets done, not treated as a separate tool." },
       { icon: "📊", label: "Data Culture", desc: "Outputs are verified, decisions are prompt-informed, and feedback loops exist." },
-      { icon: "🛡️", label: "Governance", desc: "Clear ownership, guardrails, approved tools, and escalation paths are defined." }
+      { icon: "🛡️", label: "Governance", desc: "Clear ownership, guardr9ails, approved tools, and escalation paths are defined." }
     ],
     speaker: "This is your core framework. Spend real time here. Ask the room to silently identify their weakest dimension before you move on."
   },
   // {
-  //   id: 8, type: "teams", timing: "18–25 min",
+  //   id:9, type: "teams", timing: "18–25 min",
   //   title: "AI by Function",
   //   heading: "The Highest ROI is Often Outside Engineering",
   //   functions: [
@@ -89,7 +89,7 @@ export const slides = [
   //   speaker: "Go function by function. Ask which teams in the room are already using tools — and which are the most resistant. Let the room talk."
   // },
   {
-    id: 9, type: "change", timing: "25–30 min",
+    id: 10, type: "change", timing: "25–30 min",
     title: "The Hardest Part",
     heading: "Technology is Easy. People are the Variable.",
     points: [
@@ -102,7 +102,7 @@ export const slides = [
     speaker: "This slide often resonates most with this audience. Connect it to their own experience managing previous technology transitions — ERP, cloud, mobile."
   },
   {
-    id: 10, type: "governance", timing: "30–35 min",
+    id: 11, type: "governance", timing: "30–35 min",
     title: "Governance Without Bureaucracy",
     heading: "Move Fast and Don't Break Trust",
     pillars: [
@@ -114,7 +114,7 @@ export const slides = [
     speaker: "Frame governance as the thing that allows speed, not the thing that slows it down. Without guardrails, one bad incident can halt your entire program."
   },
   // {
-  //   id: 11, type: "maturity", timing: "35–40 min",
+  //   id: 12, type: "maturity", timing: "35–40 min",
   //   title: "The AI Maturity Ladder",
   //   heading: "Honest Self-Assessment",
   //   levels: [
@@ -127,7 +127,7 @@ export const slides = [
   //   speaker: "Ask the room to honestly assess where they are — show of hands or a quick poll if you have the tech. Most enterprise companies are between Level 2 and 3."
   // },
   {
-    id: 12, type: "action", timing: "40–43 min",
+    id: 13, type: "action", timing: "40–43 min",
     title: "Your 90-Day Activation Plan",
     heading: "From Insight to Momentum",
     phases: [
@@ -138,7 +138,7 @@ export const slides = [
     speaker: "Make this tactical. Ask them to commit to ONE action from each phase before they leave the room today. Write it down."
   },
   {
-    id: 13, type: "closing", timing: "43–45 min",
+    id: 14, type: "closing", timing: "43–45 min",
     title: "The Real Competitive Moat",
     quote: "The companies that win won't be the ones with the best AI. They'll be the ones whose people know how to use it.",
     callToAction: "Start with your people. Build the culture. The tools will follow.",

@@ -5,7 +5,7 @@ import "./App.css";
 
 export default function App() {
   const [current, setCurrent] = useState(0);
-  const [showNotes, setShowNotes] = useState(false);
+  const [showNotes] = useState(false);
   const total = slides.length;
   const slide = slides[current];
   const progress = ((current + 1) / total) * 100;
